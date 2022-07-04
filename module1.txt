@@ -1,0 +1,36 @@
+-VIDEO: INTRODUCTION TO COMPUTER VISION
+
+-Computer Vision
+---Providing computers with the ability to see and understand images.
+---Computer vision is becoming more popular due to self driving cars and other important applications where computers require image detection on the fly.
+---new algorithms have made computer vision applciations faster, cheaper, automated, easy to build, convenient and scalable.
+
+-Industries revolutionized by computer vision
+---Automotive
+---Food & Beverage
+---Manufacturing
+---Pharmaceutical
+---Supply chain
+---Energy & Utilities
+---Hospitality
+---Life Sciences
+---Human Resources
+---Insurance
+
+-knockri
+---A website that helps HR shortlist candidates by detecting their facial expressions.
+
+-Video: Applications of Computer Vision
+---You can tag videos with keywords based on the objects detected in the scenes.
+---Detecting rust on metal structures.
+---Detecting damage of roofs.
+
+-Video: Recent Research in Computer Vision
+---Research on detecting objects in an image in going on at facebook
+---Image to image transformation(turning an image of a horse to a zebra), UC Berkley research team.
+---Everybody dance now, a video of a person dancing can be moved to another target.
+
+-Articles
+https://www.ibm.com/blogs/research/2019/01/diversity-in-faces/
+https://www.ibm.com/case-studies/abu-dhabi-national-oil-company-adnoc/
+
