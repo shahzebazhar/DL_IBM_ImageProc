@@ -1,0 +1,21 @@
+-IMAGE PROCESSING WITH OPENCV AND PILLOW
+
+-Video: What is a Digital Image
+---A rectangular array of numbers.
+---Each cell in the array represent a pixel on the screen.
+---The number in each pixel is called the intensity value, aka the intensity of the color at hand.
+---Greyscale images are made up of different shades of grey, using only black and white colors while colored images are made up of three primary colors Red Green and Blue(RGB).
+---Each number ranges from 0-255 (256 intensity values for the color).
+---The more intensity values that an image can have, the more clarity of colors will be present.
+---An RGB image has 3 different "channels", or in other terms, 3 different arrays for each color in RGB.
+---Image masks are usually black and white, where white represents the object to identify and the rest is black.
+---A video sequence is a sequence of images.
+---JPG: Joint Photographic Expert Group image.
+---PNG: Portable Network Graphics
+
+-Pillow(PIL)
+---Popular library for working with images in python.
+
+-OpenCV
+---Library used for computer vision.
+---More useful but more difficult to use if compared to Pillow.
