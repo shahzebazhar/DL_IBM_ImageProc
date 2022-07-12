@@ -1,0 +1,76 @@
+-MACHINE LEARNING IMAGE CLASSIFICATION
+
+-Video: Introduction to Image Classification
+
+--What is Image Classification
+----Process of taking an image and detecting what the object is.
+----It also returns a probability of how certain the model is about its decision.
+
+--Uses of Image Classification
+----Organize photos into albums
+----Augment Medical professionals
+----Self driving cars.
+
+--Target
+----A subset of categories or classes where the image will be classified into.
+----We also set the values of y and label them to the image it belongs to, for example
+----y=0 is cat, y=1 is dog, y=2 is bird etc.
+
+--Intensity Values
+----These are used to classify the image, as computers cannot understand the image as a whole.
+----X is the image we want to classify, and y is the target variable's probability.
+----A dataset is a set of images with their own respective x's and y's. The collection of those samples is called a dataset
+
+--Classifier
+----A function that takes in the input image and returns the probability of the output class it belongs to.
+
+--Challenges of Image Classification
+----Change in viewport
+----Change in ilumination
+----Deformation
+----Occlusion
+----Background Clutter
+
+-Video: Image Classification With KNNs
+
+-- k-Nearest Neighbors
+----kNNs is short of k Nearest Neighbors.
+----Simplest classification algorithm.
+----kNN finds the classifies the unknown samples by classifying it to the class common in k nearest classes.
+----It finds the closest match.
+
+--Input
+----We concatenate the three channel images into a vector.
+----Then we feed this input.
+----We simply calculate the distance of the unknown example to all the known points.
+----We find the nearest neighbor to that point and assign the class of that neighbor to our unknown sample.
+
+--Training/Testing Split
+----We create this split so that we can test our data on unkown datapoints
+----the traing/test split is usually a 70:30 ratio.
+----We use the training set to build the model and the testing set to evaluate the model.
+----After we have completed testing our model, we should use all the data to train the final model.
+
+--Accuracy
+----metric for how good our model works.
+----Basically the ratio of how many times our model predicted correctly over the number of occurences.
+
+--Challenges
+----Finding the nearest neighbor does not always works, because of outliers.
+----Hence we use the k closest classes.
+----We basically find the k nearest neighbors, and we find the class with majority in that subset of datapoints and we assign the unkown sample that class.
+
+--Hyper-parameter
+----A subset of data known as the validation or cross-validation data is used to select the hyper parameter.
+----k is a hyper parameter.
+
+--Train/Validation/Test split
+----We train our model using train data on different hyper parameters.
+----We find the accuracy for hyper parameter using the validation data.
+----We then select the hyper parameter that maximizes the accuracy on the validation data.
+----Then we use the test data to evaluate the model and its performance in the real world.
+----After the model and hyper parameters are optimized, we combine all the data and form our final model.
+
+--More Challenges
+----kNNS is very slow and cannot deal with the problems discussed in the first video quite well.
+----Hence we have other classifiers for image classification.
